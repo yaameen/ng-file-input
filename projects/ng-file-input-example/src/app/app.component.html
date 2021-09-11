@@ -1,0 +1,19 @@
+<div style="width: 80%; margin: 0 auto;">
+
+  {{ form.getRawValue() | json }}
+
+
+  
+
+  <form [formGroup]='form'>
+
+    <button (click)='check()'>Change</button>
+
+    <mat-form-field style="width: 100%;">
+      <mat-label>File</mat-label>
+      <ng-file-input required formControlName='state'></ng-file-input>
+      <mat-hint>Choose a PDF</mat-hint>
+
+    </mat-form-field>
+  </form>
+</div>

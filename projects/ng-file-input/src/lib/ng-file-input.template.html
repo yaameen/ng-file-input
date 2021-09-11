@@ -1,0 +1,6 @@
+<div class="file-input-wrapper" [ngClass]="{'invalid': errorState}">
+  <file-pond tabindex="0" #myPond [options]="pondOptions" [files]="files | async" (oninit)="pondHandleInit()"
+    (onaddfilestart)="pondHandleAddFile($event)" (onprocessfile)="pondUploaded($event)"
+    (onremovefile)="pondFileRemoved($event)" (oninitfile)="pondFileInit($event)">
+  </file-pond>
+</div>

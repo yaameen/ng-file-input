@@ -1,0 +1,9 @@
+.file-input-wrapper {
+    margin-bottom: -10px;
+}
+:host ::ng-deep {
+    .invalid .filepond--panel-root {
+        background-color: #ffcdd2 !important;
+    }
+    @import "~filepond/dist/filepond.min";
+}
