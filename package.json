@@ -1,5 +1,5 @@
 {
-  "name": "ng-file-input",
+  "name": "@yaameen/ng-file-input",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
